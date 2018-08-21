@@ -7,7 +7,7 @@
         class="item border-bottom"
         v-for="item of list"
         :key="item.id"
-        :to="'/detail' + item.id"
+        :to="'/detail/' + item.id"
       >
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl">
